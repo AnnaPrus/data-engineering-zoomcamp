@@ -1,13 +1,13 @@
 ## SQL queries as a homoework
 
-###Q3: Count of records in fct_monthly_zone_revenue?
+### Q3: Count of records in fct_monthly_zone_revenue?
 ```sql
 select count(*) 
 from `just-aura-484716-a1.dbt_anna.fct_monthly_zone_revenue`
 ```
 
 
-###Question 4. Q4: Zone with highest revenue for Green taxis in 2020? 
+### Question 4. Q4: Zone with highest revenue for Green taxis in 2020? 
 ```sql
 select
   pickup_zone,
@@ -20,7 +20,7 @@ order by revenue desc
 limit 10;
 ```
 
-###Question 5. Q5: Total trips for Green taxis in October 2019? 
+### Question 5. Q5: Total trips for Green taxis in October 2019? 
 ```sql
 select
   sum(total_monthly_trips) as total_trips
@@ -29,7 +29,7 @@ where service_type = 'Green'
   and revenue_month = '2019-10-01'
 ```
 
-###Question 6. Q6: Count of records in stg_fhv_tripdata (filter dispatching_base_num IS NULL)?
+### Question 6. Q6: Count of records in stg_fhv_tripdata (filter dispatching_base_num IS NULL)?
 
 ```sql
 select count(*)
