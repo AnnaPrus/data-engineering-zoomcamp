@@ -44,4 +44,4 @@ from `just-aura-484716-a1.taxi_data.fhv_tripdata`
 where dispatching_base_num is not null;
 ```
 
-![Diagram](images/bigquery_folders.png)
+![image](https://github.com/AnnaPrus/data-engineering-zoomcamp/blob/59c8f851abc735c96a264a99d9480f43e5dd9edd/images/bigquery_folders.png)
