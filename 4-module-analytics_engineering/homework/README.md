@@ -29,4 +29,17 @@ where service_type = 'Green'
   and revenue_month = '2019-10-01'
 ```
 
-Question 6. Q6: Count of records in stg_fhv_tripdata (filter dispatching_base_num IS NULL)?
+###Question 6. Q6: Count of records in stg_fhv_tripdata (filter dispatching_base_num IS NULL)?
+
+```sql
+select count(*)
+from `just-aura-484716-a1.dbt_anna.stg_fhv_tripdata`;
+```
+
+OR
+
+```sql
+select count(*) as record_count
+from `just-aura-484716-a1.taxi_data.fhv_tripdata`
+where dispatching_base_num is not null;
+```
