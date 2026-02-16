@@ -43,3 +43,5 @@ select count(*) as record_count
 from `just-aura-484716-a1.taxi_data.fhv_tripdata`
 where dispatching_base_num is not null;
 ```
+
+![Diagram](images/bigquery_folders.png)
