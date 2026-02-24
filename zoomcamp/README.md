@@ -25,7 +25,7 @@ zoomcamp/
             └── trips_report.sql            # Aggregation for analytics
 ```
 
-### 4.5 AI-Assisted Workflow
+### AI-Assisted Workflow
 
 **Recommended: Hybrid Approach**
 
