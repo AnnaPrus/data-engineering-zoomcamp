@@ -23,6 +23,7 @@ def taxi_pipeline_rest_api_source():
                         "type": "page_number",
                         "page_param": "page",
                         "base_page": 1,
+                        "total_path": None,
                         "stop_after_empty_page": True,
                     },
                 }
