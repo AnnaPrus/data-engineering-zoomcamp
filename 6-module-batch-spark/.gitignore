@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spark output folders
+yellow_repartitioned/
+
+# Data files
+*.parquet
+*.csv
+
+# Hadoop / Spark temporary files
+*.crc
+_SUCCESS
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# uv environment files
+.python-version
