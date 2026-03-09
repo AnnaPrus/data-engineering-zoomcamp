@@ -200,9 +200,3 @@ Execute the Spark script:
 uv run python spark_session.py
 ```
 
----
-
-## References
-
-* Data Engineering Zoomcamp
-* Apache Spark Documentation
