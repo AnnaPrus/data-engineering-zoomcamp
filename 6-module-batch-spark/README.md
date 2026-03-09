@@ -24,7 +24,7 @@ source .venv/bin/activate
 
 ### Install PySpark
 
-The Zoomcamp course uses Spark **3.5.0**, which avoids compatibility issues with newer Java versions.
+We use Spark **3.5.0**, which avoids compatibility issues with newer Java versions.
 
 ```bash
 uv add pyspark==3.5.0
@@ -189,19 +189,6 @@ Result:
 ```
 Rikers Island
 ```
-
----
-
-## Results Summary
-
-| Question | Answer                                       |
-| -------- | -------------------------------------------- |
-| Q1       | Spark version **3.5.0**                      |
-| Q2       | Average Parquet size **~25MB**               |
-| Q3       | Trips on Nov 15 **162,604**                  |
-| Q4       | Longest trip **90.6 hours**                  |
-| Q5       | Spark UI port **4040**                       |
-| Q6       | Least frequent pickup zone **Rikers Island** |
 
 ---
 
